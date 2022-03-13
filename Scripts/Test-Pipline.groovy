@@ -1,4 +1,4 @@
-@import TestFunc;
+@import TestFunc
 
 pipeline {
     agent any
