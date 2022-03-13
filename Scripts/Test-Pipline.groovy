@@ -1,4 +1,3 @@
-import Functions.TestFunc
 
 pipeline {
     agent any
