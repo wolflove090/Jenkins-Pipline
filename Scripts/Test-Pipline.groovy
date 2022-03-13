@@ -1,3 +1,5 @@
+@import TestFunc;
+
 pipeline {
     agent any
     triggers
@@ -9,6 +11,7 @@ pipeline {
         stage('Example Build') {
             steps {
                 echo "Test"
+                Hogehoge()
             }
         }
     }
